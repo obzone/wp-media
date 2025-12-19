@@ -1,0 +1,49 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+crash.log
+tfplan*
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Local .env files
+.env*
+
+# Sensitive files
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Ignore IDE/project files
+.idea/
+*.iml
+
+# Ignore test output
+coverage/
+htmlcov/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
