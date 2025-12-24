@@ -71,7 +71,7 @@ resource "aws_cloudfront_distribution" "cdn_wp" {
     prefix          = "cloudfront/wp/"
   }
   provider        = aws.us
-  enabled         = true
+  enabled         = false
   is_ipv6_enabled = true
   comment         = "CloudFront for backend (WordPress + WooCommerce)"
 
